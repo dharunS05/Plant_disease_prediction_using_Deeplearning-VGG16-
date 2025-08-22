@@ -1,0 +1,6 @@
+import gdown
+
+# Google Drive file ID (share your model link, extract the ID)
+file_id = "https://drive.google.com/file/d/140QND0vUNKmB_kaON-sS7g3spkkYzQn6/view?usp=sharing"
+output = "models/plant_vgg16_best.h5"
+gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
