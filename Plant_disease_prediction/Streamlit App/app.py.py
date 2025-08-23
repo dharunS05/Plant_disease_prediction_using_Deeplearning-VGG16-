@@ -9,8 +9,8 @@ from tensorflow.keras.applications.vgg16 import preprocess_input
 # ----------------------------
 # 1) Load Model & Class Indices
 # ----------------------------
-MODEL_PATH = "plant_vgg16_best.h5"
-CLASS_JSON = "class_indices.json"
+MODEL_PATH = "Plant_disease_prediction/Models/plant_vgg16_best.h5"
+CLASS_JSON = "Plant_disease_prediction/Models/class_indices.json"
 
 model = load_model(MODEL_PATH)
 
@@ -70,3 +70,4 @@ if uploaded_file is not None:
     plt.xlabel("Confidence (%)")
     plt.title("Top 5 Predictions")
     st.pyplot(plt)
+
