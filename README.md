@@ -16,7 +16,7 @@ It includes a **Streamlit app** for interactive predictions.
 
 ## 📊 Dataset
 We use the **PlantVillage dataset (38 classes, 50K+ images)**:  
-🔗 [Kaggle Link](https://www.kaggle.com/datasets/emmarex/plantdisease)
+🔗 [Kaggle Link](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
 
 > ⚠️ The dataset is not uploaded due to GitHub size limits.  
 Download from Kaggle and place it under `dataset/`.
